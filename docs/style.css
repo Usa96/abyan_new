@@ -13494,7 +13494,7 @@ textarea.form-control-lg {
 
 :root,
 .not-dark {
-  --cnvs-contrast-0: #fff;
+  --cnvs-contrast-0: #000;
   --cnvs-contrast-100: #f8f9fa;
   --cnvs-contrast-200: #e9ecef;
   --cnvs-contrast-300: #dee2e6;
@@ -13502,7 +13502,7 @@ textarea.form-control-lg {
   --cnvs-contrast-500: #adb5bd;
   --cnvs-contrast-600: #6c757d;
   --cnvs-contrast-700: #495057;
-  --cnvs-contrast-800: #343a40;
+  --cnvs-contrast-800: #fff;
   --cnvs-contrast-900: #212529;
   --cnvs-contrast-1000: #000;
   --cnvs-invert-contrast-0: #000;
@@ -17826,7 +17826,7 @@ body:not(.top-search-open) .top-search-parent .primary-menu-trigger {
   display: block;
   line-height: 22px;
   padding: var(--cnvs-primary-menu-padding-y) var(--cnvs-primary-menu-padding-x);
-  color: var(--cnvs-primary-menu-color);
+  color: #fff;
   font-weight: var(--cnvs-primary-menu-font-weight);
   font-size: var(--cnvs-primary-menu-font-size);
   font-family: var(--cnvs-primary-menu-font);
@@ -33568,3 +33568,11 @@ body.dark {
   background-color: rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
+
+@media (max-width: 991px) {
+  #header.full-header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+}
