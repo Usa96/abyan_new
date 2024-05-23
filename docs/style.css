@@ -13494,7 +13494,7 @@ textarea.form-control-lg {
 
 :root,
 .not-dark {
-  --cnvs-contrast-0: #000;
+  --cnvs-contrast-0: rgb(0,0,0,0);
   --cnvs-contrast-100: #f8f9fa;
   --cnvs-contrast-200: #e9ecef;
   --cnvs-contrast-300: #dee2e6;
