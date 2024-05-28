@@ -7,4 +7,7 @@
 
 :root {
 	--cnvs-themecolor: #ffca08;
+	--cnvs-body-font: 'Montserrat Arabic', sans-serif;
+    --cnvs-primary-font: 'Montserrat Arabic', sans-serif;
+    --cnvs-secondary-font: 'Montserrat Arabic', sans-serif;
 }
