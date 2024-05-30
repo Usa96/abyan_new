@@ -23,7 +23,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>About Us</title>
+	<title>About</title>
 
 </head>
 
@@ -35,7 +35,7 @@
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header transparent-header dark" data-sticky-class="not-dark" data-responsive-class="not-dark">
+		<header id="header" class="full-header transparent semi-transparent" data-sticky-class="transparent semi-transparent" data-sticky-offset="100"  data-mobile-sticky="true">
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row">
@@ -47,8 +47,8 @@
 								<img class="logo-default" srcset="images/abyan_logo_x2-removebg-preview.png, images/abyan_logo_x2-removebg-preview.png 2x" src="" alt="Logo">
 								<img class="logo-dark" srcset="images/abyan_logo_x2-removebg-preview.png, images/abyan_logo_x2-removebg-preview.png 2x" src="" alt="Logo">
 							</a>
-						</div><!-- #logo end -->	
-
+						</div><!-- #logo end -->
+						
 						<div class="primary-menu-trigger">
 							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
 								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
@@ -64,21 +64,24 @@
 									<a class="menu-link" href="index.html"><div>Home</div></a>
 								</li>
 								<!-- <li class="menu-item">
-									<a class="menu-link" href="about.html"><div>About us</div></a>
+									<a class="menu-link" href="about.html"><div>About</div></a>
 								</li> -->
-								<li class="menu-item mega-menu">
+								<li class="menu-item">
+									<a class="menu-link" href="Services.html"><div>Services</div></a>
+								</li> 
+								<li class="menu-item">
 									<a class="menu-link" href="portfolio.html"><div>Projects</div></a>
 								</li>
-								<li class="menu-item mega-menu">
+								<li class="menu-item">
 									<a class="menu-link" href="media.html"><div>Media</div></a>
 								</li> 
-								<li class="menu-item mega-menu">
-									<a class="menu-link" href="contact_us.html"><div>Contact Us</div></a>
+								<li class="menu-item">
+									<a class="menu-link" href="contact_us.html"><div>Contact</div></a>
 								</li>
 							</ul>
 
 						</nav>
-						<!-- #primary-menu end -->
+
 					</div>
 				</div>
 			</div>
@@ -114,15 +117,60 @@
 			<div class="content-wrap" style="padding-bottom: 0px;">
 				<div class="container">
 					<!-- Quote start-->
-					<div class="row justify-content-center">
-						<div class="col-lg-9">
-							<h3>Message from CEO</h3>
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, odio, esse, atque, rem provident neque quos iure iusto quam dolorum architecto sunt itaque ut quia!</p>
-							</blockquote>
+					<div class="container">
+						<div class="row justify-content-center align-items-center">
+						  <div class="col-12 text-center mb-4">
+							<h3 class="h3 font-secondary fw-bold">Testimonials</h3>
+						  </div>
 						</div>
-						<div class="line"></div>
-					</div>
+					  
+						<div class="row justify-content-center">
+						  <div class="col-lg-12">
+							<div class="owl-carousel carousel-widget" data-items="1" data-autoplay="5000">
+							  <div class="p-2">
+								<div class="card text-center rounded-6 shadow-sm overflow-hidden">
+								  <div class="card-body p-4">
+									<div class="row">
+									  <div class="col-12">
+										<img class="rounded-circle mx-auto w-auto mb-4" src="#" width="64" height="64" alt="Dr. Ahmed Al Naseem Abyan CEO Building Construction 3D printing First in Kuwait">
+										<p class="mb-4 font-secondary" style="font-size: 1.125rem; line-height: 1.65;">Lorem Ipsum</p>
+									  </div>
+									  <div class="d-flex align-items-center justify-content-center">
+										<div>
+										  <h4 class="h6 mb-0 fw-medium">Dr Ahmad Al Naseem</h4>
+										  <small class="text-muted">Chief Executive Officer at Abyan Building Construction W.L.L</small>
+										</div>
+									  </div>
+									</div>
+								  </div>
+								  <div class="bg-icon bi-star-fill op-02"></div>
+								</div>
+							  </div>
+					  
+							  <div class="p-2">
+								<div class="card text-center rounded-6 shadow-sm overflow-hidden">
+								  <div class="card-body p-4">
+									<div class="row">
+									  <div class="col-12">
+										<img class="rounded-circle mx-auto w-auto mb-4" src="#" width="64" height="64" alt="Engineer Shadi Al Hariri Abyan Building Construction">
+										<p class="mb-4 font-secondary" style="font-size: 1.125rem; line-height: 1.65;">Lorem Ipsum</p>
+									  </div>
+									  <div class="d-flex align-items-center justify-content-center">
+										<div>
+										  <h4 class="h6 mb-0 fw-medium">Engr Shadi Al Hariri</h4>
+										  <small class="text-muted">General Manager</small>
+										</div>
+									  </div>
+									</div>
+								  </div>
+								  <div class="bg-icon bi-star-fill op-02"></div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <div class="line"></div>
 					<!-- Quote end-->
 					<div class="row col-mb-50 mb-0">
 						<div class="col-lg-6">
@@ -136,155 +184,7 @@
 					</div>
 
 					<div class="line"></div>
-					<h2 class="text-center ls-1 mb-5">Some of <span>Our Projects</span>:</h2>
 
-					<div id="portfolio" class="portfolio row gutter-20">
-						<!-- Project start-->
-						<article class="portfolio-item col-12 col-sm-6 col-md-6 pf-media pf-icons">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<img src="demos/construction/images/projects/1.jpg" alt="The Atmosphere">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="#">The Atmosphere</a></h3>
-									<span>Chicago, USA</span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 col-md-6 pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<img src="demos/construction/images/projects/2.jpg" alt="Wavelength Structure">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Wavelength Structure</h3>
-									<span>Madrid, Spain</span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 col-md-6 pf-graphics pf-uielements">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<img src="demos/construction/images/projects/3.jpg" alt="Greenhouse Garden">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Greenhouse Garden</h3>
-									<span>Bali, Indonesia</span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 col-md-6 pf-icons pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<img src="demos/construction/images/projects/4.jpg" alt="Industrial Hub">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Industrial Hub</h3>
-									<span>Beijing, China</span>
-								</div>
-							</div>
-						</article>
-					<div class="line"></div>
-					<!-- Project end-->				
-					<div class="row justify-content-between align-items-center">
-						<div class="col-md-4">
-							<h3 class="h3 font-secondary fw-bold mb-4">Customer Testimonials</h3>
-							<p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quibusdam possimus aut itaque quo ex et dignissimos fuga animi id.</p>
-						</div>
-
-						<div class="col-md-7">
-							<div class="owl-carousel carousel-widget" data-items="2" data-autoplay="5000">
-								<div class="p-2">
-									<div class="card text-center rounded-6 shadow-sm overflow-hidden">
-										<div class="card-body p-4">
-											<div class="row">
-												<div class="col-12">
-													<img class="rounded-circle mx-auto w-auto mb-4" src="images/testimonials/1.jpg" width="64" height="64" alt="Customer Testimonails">
-													<p class="mb-4 font-secondary" style="font-size: 1.125rem; line-height: 1.65;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quibusdam possimus aut itaque quo ex et dignissimos fuga animi id.</p>
-												</div>
-												<div class="d-flex align-items-center justify-content-center">
-													<div>
-														<h4 class="h6 mb-0 fw-medium">Siri Alexa</h4>
-														<small class="text-muted">Apple Inc.</small>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="bg-icon bi-star-fill op-02"></div>
-									</div>
-								</div>
-
-								<div class="p-2">
-									<div class="card text-center rounded-6 shadow-sm overflow-hidden">
-										<div class="card-body p-4">
-											<div class="row">
-												<div class="col-12">
-													<img class="rounded-circle mx-auto w-auto mb-4" src="images/testimonials/1.jpg" width="64" height="64" alt="Customer Testimonails">
-													<p class="mb-4 font-secondary" style="font-size: 1.125rem; line-height: 1.65;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quibusdam possimus aut itaque quo ex et dignissimos fuga animi id.</p>
-												</div>
-												<div class="d-flex align-items-center justify-content-center">
-													<div>
-														<h4 class="h6 mb-0 fw-medium">Siri Alexa</h4>
-														<small class="text-muted">Apple Inc.</small>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="bg-icon bi-star-fill op-02"></div>
-									</div>
-								</div>
-
-								<div class="p-2">
-									<div class="card text-center rounded-6 shadow-sm overflow-hidden">
-										<div class="card-body p-4">
-											<div class="row">
-												<div class="col-12">
-													<img class="rounded-circle mx-auto w-auto mb-4" src="images/testimonials/1.jpg" width="64" height="64" alt="Customer Testimonails">
-													<p class="mb-4 font-secondary" style="font-size: 1.125rem; line-height: 1.65;">Seamlessly conceptualize multimedia based web services for optimal human capital. Collaboratively evisculate e-business value.</p>
-												</div>
-												<div class="d-flex align-items-center justify-content-center">
-													<div>
-														<h4 class="h6 mb-0 fw-medium">Siri Alexa</h4>
-														<small class="text-muted">Apple Inc.</small>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="bg-icon bi-star-fill op-02"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="line"></div>
 				<!-- Executive Management Start-->
 				<div class="container">
 					<div class="fancy-title title-border mt-5">
@@ -334,7 +234,7 @@
 								</div>
 								
 								<div class="row col-mb-50 mb-0">
-									<div class="col-lg-3 col-md-6">
+									<div class="col-lg-6 col-md-6">
 										<div class="team">
 											<div class="team-image">
 												<img src="#" alt="Dr Sulaiman" class="rounded-6">
@@ -343,25 +243,11 @@
 												<div class="team-title">
 													<h4>Dr. Sulaiman Tareq Al Abduljader</h4>
 												</div>
-												<div class="d-flex justify-content-center mt-4">
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
-														<i class="fa-brands fa-facebook-f"></i>
-														<i class="fa-brands fa-facebook-f"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
-														<i class="fa-brands fa-x-twitter"></i>
-														<i class="fa-brands fa-x-twitter"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
-														<i class="fa-brands fa-google"></i>
-														<i class="fa-brands fa-google"></i>
-													</a>
-												</div>
 											</div>
 										</div>
 									</div>
 
-									<div class="col-lg-3 col-md-6">
+									<div class="col-lg-6 col-md-6">
 										<div class="team">
 											<div class="team-image">
 												<img src="#" alt="Mr. Abdulaziz Al Majeed" class="rounded-6">
@@ -370,25 +256,11 @@
 												<div class="team-title">
 													<h4>Mr. Abdulaziz Al Majeed</h4>
 												</div>
-												<div class="d-flex justify-content-center mt-4">
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
-														<i class="fa-brands fa-facebook-f"></i>
-														<i class="fa-brands fa-facebook-f"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
-														<i class="fa-brands fa-x-twitter"></i>
-														<i class="fa-brands fa-x-twitter"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
-														<i class="fa-brands fa-google"></i>
-														<i class="fa-brands fa-google"></i>
-													</a>
-												</div>
 											</div>
 										</div>
 									</div>
 
-									<div class="col-lg-3 col-md-6">
+									<div class="col-lg-6 col-md-6">
 										<div class="team">
 											<div class="team-image">
 												<img src="#" alt="Mr Ibrahim Al Awadi" class="rounded-6">
@@ -397,25 +269,11 @@
 												<div class="team-title">
 													<h4>Mr Ibrahim Al Awadi</h4>
 												</div>
-												<div class="d-flex justify-content-center mt-4">
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
-														<i class="fa-brands fa-facebook-f"></i>
-														<i class="fa-brands fa-facebook-f"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
-														<i class="fa-brands fa-x-twitter"></i>
-														<i class="fa-brands fa-x-twitter"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
-														<i class="fa-brands fa-google"></i>
-														<i class="fa-brands fa-google"></i>
-													</a>
-												</div>
 											</div>
 										</div>
 									</div>
 
-									<div class="col-lg-3 col-md-6">
+									<div class="col-lg-6 col-md-6">
 										<div class="team">
 											<div class="team-image">
 												<img src="#" alt="Mr Abdul Mutalib Al Marafi" class="rounded-6">
@@ -424,25 +282,11 @@
 												<div class="team-title">
 													<h4>Mr Abdul Mutalib Al Marafi</h4>
 												</div>
-												<div class="d-flex justify-content-center mt-4">
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
-														<i class="fa-brands fa-facebook-f"></i>
-														<i class="fa-brands fa-facebook-f"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
-														<i class="fa-brands fa-x-twitter"></i>
-														<i class="fa-brands fa-x-twitter"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
-														<i class="fa-brands fa-google"></i>
-														<i class="fa-brands fa-google"></i>
-													</a>
-												</div>
 											</div>
 										</div>
 									</div>
 
-									<div class="col-lg-3 col-md-6">
+									<div class="col-lg-6 col-md-6">
 										<div class="team">
 											<div class="team-image">
 												<img src="#" alt="Mr Ahmad Abass Shakib" class="rounded-6">
@@ -451,25 +295,11 @@
 												<div class="team-title">
 													<h4>Mr Ahmad Abass Shakib</h4>
 												</div>
-												<div class="d-flex justify-content-center mt-4">
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
-														<i class="fa-brands fa-facebook-f"></i>
-														<i class="fa-brands fa-facebook-f"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
-														<i class="fa-brands fa-x-twitter"></i>
-														<i class="fa-brands fa-x-twitter"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
-														<i class="fa-brands fa-google"></i>
-														<i class="fa-brands fa-google"></i>
-													</a>
-												</div>
 											</div>
 										</div>
 									</div>
 
-									<div class="col-lg-3 col-md-6">
+									<div class="col-lg-6 col-md-6">
 										<div class="team">
 											<div class="team-image">
 												<img src="#" alt="Dr. Ahmad Al Naseem" class="rounded-6">
@@ -478,24 +308,10 @@
 												<div class="team-title">
 													<h4>Dr. Ahmad Al Naseem</h4>
 												</div>
-												<div class="d-flex justify-content-center mt-4">
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
-														<i class="fa-brands fa-facebook-f"></i>
-														<i class="fa-brands fa-facebook-f"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
-														<i class="fa-brands fa-x-twitter"></i>
-														<i class="fa-brands fa-x-twitter"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
-														<i class="fa-brands fa-google"></i>
-														<i class="fa-brands fa-google"></i>
-													</a>
-												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-3 col-md-6">
+									<div class="col-lg-6 col-md-6">
 										<div class="team">
 											<div class="team-image">
 												<img src="#" alt="Dr. Mohamed Abo Taleb" class="rounded-6">
@@ -504,24 +320,10 @@
 												<div class="team-title">
 													<h4>Dr. Mohamed Abo Taleb</h4>
 												</div>
-												<div class="d-flex justify-content-center mt-4">
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
-														<i class="fa-brands fa-facebook-f"></i>
-														<i class="fa-brands fa-facebook-f"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
-														<i class="fa-brands fa-x-twitter"></i>
-														<i class="fa-brands fa-x-twitter"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
-														<i class="fa-brands fa-google"></i>
-														<i class="fa-brands fa-google"></i>
-													</a>
-												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-3 col-md-6">
+									<div class="col-lg-6 col-md-6">
 										<div class="team">
 											<div class="team-image">
 												<img src="#" alt="Nix Maxwell" class="rounded-6">
@@ -529,20 +331,6 @@
 											<div class="team-desc">
 												<div class="team-title">
 													<h4>Engr Fawaz Al Tarki</h4>
-												</div>
-												<div class="d-flex justify-content-center mt-4">
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
-														<i class="fa-brands fa-facebook-f"></i>
-														<i class="fa-brands fa-facebook-f"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
-														<i class="fa-brands fa-x-twitter"></i>
-														<i class="fa-brands fa-x-twitter"></i>
-													</a>
-													<a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
-														<i class="fa-brands fa-google"></i>
-														<i class="fa-brands fa-google"></i>
-													</a>
 												</div>
 											</div>
 										</div>
@@ -557,40 +345,31 @@
 				<!-- Footer
 		============================================= -->
 		<footer id="footer" class="dark">
-			<!-- Copyrights
-			============================================= -->
 			<div id="copyrights">
 				<div class="container">
-
 					<div class="row align-items-center justify-content-between col-mb-30">
 						<div class="col-12 col-lg-auto text-center text-lg-start">
-							<img src="images/footer-logo.png" alt="Image" class="mb-4"><br>
-							Copyrights &copy; 2023 All Rights Reserved.
+							<img src="images/footer-logo.png" alt="Image" class="mb-4">
+							<h5>Abyan Building Construction WLL</h5>
 						</div>
-
 						<div class="col-12 col-lg-auto text-center text-lg-end">
-							<div class="copyrights-menu copyright-links">
-								<a href="index.html">Home</a>/<a href="about.html">About</a>/<a href="portfolio.html">Portfolio</a>/<a href="media.html">Media</a>/<a href="contact_us.html">Contact</a>
-							</div>
-
-							<div class="d-flex justify-content-center justify-content-lg-end mt-4">
-								<a href="#" class="social-icon rounded-circle h-bg-instagram">
-									<i class="fa-brands fa-instagram"></i>
-									<i class="fa-brands fa-instagram"></i>
-								</a>
-
-								<a href="#" class="social-icon rounded-circle h-bg-linkedin">
-									<i class="fa-brands fa-linkedin"></i>
-									<i class="fa-brands fa-linkedin"></i>
-								</a>
+							<h3>Contact</h3>
+							<div class="py-2" style="background: url('images/world-map.png') no-repeat center center;">
+								<div class="row col-mb-30">
+									<div class="col-12 text-right">
+										<address class="mb-0">
+											<div class="contact-item"><i class="fa-solid fa-location-dot" style="margin-right: 5px;"></i> Sanam Tower 1, Floor 27</div>
+										</address>
+										<div class="contact-item"><i class="fa-solid fa-phone" style="margin-right: 5px;"></i> +965 TBD</div>
+										<div class="contact-item"><i class="fa-solid fa-envelope" style="margin-right: 5px;"></i> info@abyan.com.kw</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-
 				</div>
-			</div><!-- #copyrights end -->
-		</footer><!-- #footer end -->
-
+			</div>
+		</footer>
 	</div><!-- #wrapper end -->
 
 	<!-- Go To Top
