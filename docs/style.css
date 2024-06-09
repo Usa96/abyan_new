@@ -33746,3 +33746,7 @@ body.dark {
 .process-circle .hexagon:nth-child(4) { top: 100%; left: 50%; transform: translate(-50%, -100%); }
 .process-circle .hexagon:nth-child(5) { top: 75%; left: 15%; transform: translate(-50%, -50%); }
 .process-circle .hexagon:nth-child(6) { top: 25%; left: 15%; transform: translate(-50%, -50%); }
+
+.button.button-small.button-dark.button-rounded:hover {
+  color: black;
+}
