@@ -33751,3 +33751,23 @@ body.dark {
 .button.button-small.button-dark.button-rounded:hover {
   color: black;
 }
+
+.logo-mobile {
+  display: none;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+  /* Hide desktop logos */
+  .logo-default,
+  .logo-dark {
+      display: none;
+  }
+
+  /* Show mobile logo */
+  .logo-mobile {
+      display: block;
+      max-width: 100%; /* Ensure it fits within the container */
+      height: auto; /* Maintain aspect ratio */
+  }
+}
