@@ -13816,6 +13816,7 @@ a:not(.btn-link):not(.text-decoration-underline):not(.more-link) {
 }
 a:hover {
   color: var(--cnvs-link-hover-color);
+  font-weight: bolder;
 }
 a img {
   border: none;
